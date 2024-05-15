@@ -13,6 +13,7 @@
 		F995F2182BF30AE5009A0767 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F995F2172BF30AE5009A0767 /* Preview Assets.xcassets */; };
 		F995F2292BF32040009A0767 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = F995F2282BF32040009A0767 /* Order.swift */; };
 		F995F22B2BF32425009A0767 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F995F22A2BF32425009A0767 /* AddressView.swift */; };
+		F9CB2D3D2BF43D1000B34D63 /* CheckOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CB2D3C2BF43D1000B34D63 /* CheckOutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		F995F2172BF30AE5009A0767 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F995F2282BF32040009A0767 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		F995F22A2BF32425009A0767 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		F9CB2D3C2BF43D1000B34D63 /* CheckOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		F995F20F2BF30AE4009A0767 /* CupCakeCafe */ = {
 			isa = PBXGroup;
 			children = (
+				F9CB2D3C2BF43D1000B34D63 /* CheckOutView.swift */,
 				F995F2102BF30AE4009A0767 /* CupCakeCafeApp.swift */,
 				F995F2122BF30AE4009A0767 /* ContentView.swift */,
 				F995F2282BF32040009A0767 /* Order.swift */,
@@ -146,6 +149,7 @@
 				F995F2292BF32040009A0767 /* Order.swift in Sources */,
 				F995F22B2BF32425009A0767 /* AddressView.swift in Sources */,
 				F995F2132BF30AE4009A0767 /* ContentView.swift in Sources */,
+				F9CB2D3D2BF43D1000B34D63 /* CheckOutView.swift in Sources */,
 				F995F2112BF30AE4009A0767 /* CupCakeCafeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

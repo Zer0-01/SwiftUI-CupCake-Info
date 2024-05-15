@@ -19,6 +19,7 @@ struct ContentView: View {
                             Text(Order.types[$0])
                         }
                     }
+                    Stepper("Number of cakes: \(order.quantity)", value: $order.quantity, in: 3...20)
                 }
                 
                 Section {
@@ -41,7 +42,7 @@ struct ContentView: View {
         }
     }
     
-   
+    
 }
 
 
